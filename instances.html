@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <!-- Font Awesome;for icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+          crossorigin="anonymous">
+
+    <link href="report.css" rel="stylesheet">
+
+    <!-- Google charts library -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!--Script to draw the chart -->
+    <script type="text/javascript" src="instances.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <!-- Popper.js library; for tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <!-- Bootstrap's js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<!-- header: start -->
+<div class="header">
+    <div class="header-div">
+        <div class="header-logo"> <a href="/"> <img alt="Pearson" height="40" src="http://logos-download.com/wp-content/uploads/2016/06/Pearson_logo.png"
+                                                    width="133"> </a> </div> <span class="span-dev"> Application Solutions Engineering </span> <div class="clear"></div>
+    </div>
+</div>
+<!-- header: end -->
+
+<!-- topic bar: start -->
+<nav class="navbar navbar-dark bg-dark-blue justify-content-between">
+    <div class="container-fluid">
+        Daily Instances Utilization
+    </div>
+</nav>
+
+<!-- topic bar: end -->
+
+<!-- content area: start-->
+<div class="">
+    <div class="attach-content col-md-12">
+        <h4 class="attach-content-text">Instances Report</h4>
+    </div>
+
+    <div class="center" id="curve_chart" style="width: 1000px; height: 600px"></div>
+
+</div>
+
+<div class="footer-dev"> <span class="span-content">Copyright © Applications Solutions Engineering , Sri Lanka</span> </div>
+<!-- content area: end -->
+</body>
+</html>
+
